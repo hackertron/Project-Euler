@@ -1,0 +1,16 @@
+#include<iostream>
+#include<math.h>
+using namespace std ;
+int main()
+{
+    long i  , j , sum = 0 , sq_sum = 0  , result;
+    for(i=1 ;i <101 ; i++){
+        sum = sum + pow(i,2);
+        sq_sum = sq_sum + i ;
+
+    }
+    sq_sum = sq_sum * sq_sum ;
+    result = sq_sum - sum ;
+    cout<<"result is"<<result ;
+return 0 ;
+}
